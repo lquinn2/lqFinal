@@ -14,3 +14,29 @@ Text Domain: twentysixteen-child
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+
+/* Reduce blog post titles */
+h1.entry-title {
+    font-size: 1.5rem;
+}
+
+/* Reduce previous and next titles to 1.5rem */
+span.post-title {
+    font-size: 1rem;
+}
+
+/* Change colour on all horizontal lines */
+hr {
+    color: #d0d0d0;
+    background-color: #d0d0d0;
+    border: none;
+    height: 0.5em;
+}
+
+/* Modifications to the Beautiful Data page */
+.page-id-58 .header-image, div.site-header-main, aside#secondary, h1.entry-title, .site-header {
+    display: none;
+}
+#content {
+    width: 100%;
+}
