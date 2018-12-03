@@ -34,9 +34,21 @@ hr {
 }
 
 /* Modifications to the Beautiful Data page */
-.page-id-58 .header-image, div.site-header-main, aside#secondary, h1.entry-title, .site-header {
+.page-id-58 .header-image {
     display: none;
 }
+ .page-id-58 div.site-header-main {
+    display: none;
+}
+.page-id-58 aside#secondary {
+    display: none;
+}
+.page-id-58 h1.entry-title {
+    display: none;
+}
+ .page-id-58 .site-header {
+    display: none;
+}  
 #content {
     width: 100%;
 }
